@@ -1,8 +1,6 @@
 import { createPathComponent, LeafletContextInterface } from '@react-leaflet/core'
 import L, { LeafletMouseEventHandlerFn } from 'leaflet'
 import 'leaflet.markercluster'
-import 'leaflet.markercluster/dist/MarkerCluster.css'
-import 'leaflet.markercluster/dist/MarkerCluster.Default.css'
 import React, { useEffect } from 'react'
 
 //webpack failing when loading leaflet marker icon
